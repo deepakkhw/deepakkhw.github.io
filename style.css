@@ -159,10 +159,12 @@ nav ul li a:hover {
 }
 
 .hero-lead {
-    font-size: 1.15rem;
-    max-width: 760px;
-    margin: 24px auto 40px auto;
-    line-height: 1.6;
+    font-size: 1.05rem;
+    line-height: 1.7;          /* Increases vertical spacing between lines for better readability */
+    max-width: 720px;          /* Restricts how far the text stretches horizontally */
+    margin: 0 auto 35px auto;  /* The 'auto' left and right keeps the narrowed block perfectly centered */
+    text-align: center;        /* Keeps the text alignment clean and balanced with the buttons */
+    color: var(--text-iron-gray);
 }
 
 .hero-cta-group {
