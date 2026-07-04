@@ -1,290 +1,355 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deepak Kumar | Chief Technology Strategist</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Font Awesome for clean, tech-focused icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deepak Kumar | Chief Technology Strategist</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-    <!-- Terminal/Network Grid Visual Background Layer -->
-    <div class="network-bg-overlay"></div>
+  <!-- TOPBAR -->
+  <header class="topbar">
+    <div class="logo-area">
+      <div class="logo">DK</div>
+      <div class="logo-tag">CCIE #65763</div>
+    </div>
 
-    <!-- Navigation Header -->
-    <header>
-        <div class="nav-container">
-            <div class="logo">
-                <span class="bracket">&lt;</span> DEEPAK KUMAR <span class="badge">CCIE 65763</span><span class="bracket">&gt;</span>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#about">Overview</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#skills">Matrix</a></li>
-                    <li><a href="#education">Credentials</a></li>
-                    <li><a href="#contact" class="btn-nav">Connect</a></li>
-                </ul>
-            </nav>
+    <nav>
+      <a href="#hero">Overview</a>
+      <a href="#expertise">Expertise</a>
+      <a href="#impact">Impact</a>
+      <a href="#leadership">Leadership</a>
+      <a href="#credentials">Credentials</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="hero-main">
+      <p class="hero-kicker">Securing & Scaling Global Enterprise Infrastructures</p>
+      <h1>Architecting Resilient Networks & Security Systems</h1>
+      <p class="hero-sub">
+        Chief Technology Strategist & Senior System Engineer with 17+ years of expertise driving digital transformation,
+        zero‑trust architectures, hybrid networks, and IT/OT convergence. Delivering up to 30% operational efficiency
+        while aligning infrastructure with multi‑million‑dollar business objectives.
+      </p>
+      <p class="hero-highlight">
+        Recognized industry‑wide with awards including Cisco Designated VIP, Cisco Champion, and Sophos Best Engineer.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn-primary" href="#contact">Execute Connection</a>
+        <a class="btn-outline" href="#impact">View Track Record</a>
+      </div>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat-block">
+        <div class="stat-header">17+ Years</div>
+        <div class="stat-sub">Enterprise, DC & OT/ICS Experience</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-header">30%+</div>
+        <div class="stat-sub">Operational Efficiency & Incident Reduction</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-header">99.5% Uptime</div>
+        <div class="stat-sub">Critical Services & Hybrid Networks</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-header">20+ Engineers</div>
+        <div class="stat-sub">Led Across IT, DC & OT</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIVIDER -->
+  <div class="divider"></div>
+
+  <!-- EXPERTISE -->
+  <section id="expertise" class="section">
+    <div class="section-header">
+      <h2>Expertise</h2>
+      <p class="section-highlight">Core capabilities across enterprise, data center, OT/ICS, security, and cloud.</p>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Enterprise & DC Architecture</h3>
+        <p class="short">Designing resilient, scalable, and segmented infrastructures.</p>
+        <div class="details">
+          <p>End‑to‑end HLD/LLD, ACI, VXLAN/EVPN, spine‑leaf, segmentation, hybrid cloud connectivity, and high‑availability designs.</p>
         </div>
-    </header>
+      </div>
 
-    <!-- Hero Section -->
-    <section class="hero-section" id="about">
-        <div class="hero-content">
-            <div class="status-tag"><i class="fa-solid fa-shield-halved"></i> Securing & Scaling Global Enterprise Infrastructures</div>
-            <h1>Architecting Resilient <br><span class="highlight-text">Networks & Security</span> Systems</h1>
-            <p class="hero-lead">
-                Chief Technology Strategist | Senior System Engineer | Architect with 17+ years of expertise driving digital transformation, zero-trust architectures, Hybrid Network and IT/OT convergence. Delivering up to 30% operational efficiency while aligning infrastructure with multi-million dollar business objectives. Recognized industry-wide for technical expertise, evidenced by awards including the Cisco Designated VIP, Cisco Champion, and Sophos Best Engineer (2019 to Present).
-            </p>
-            <div class="hero-cta-group">
-                <a href="#contact" class="btn-primary">Execute Connection</a>
-                <a href="#experience" class="btn-secondary">View Track Record</a>
-            </div>
-            
-            <!-- Quick Executive Stats Grid -->
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <h3>17+ Yrs</h3>
-                    <p>Core IT Experience</p>
-                </div>
-                <div class="stat-card">
-                    <h3>30%</h3>
-                    <p>Incident Reduction</p>
-                </div>
-                <div class="stat-card">
-                    <h3>Million $</h3>
-                    <p>Program Budgets</p>
-                </div>
-                <div class="stat-card">
-                    <h3>Lead</h3>
-                    <p>Technical Team lead</p>
-                </div>
-            </div>
+      <div class="card">
+        <h3>OT/ICS & IT/OT Convergence</h3>
+        <p class="short">Securing industrial networks without breaking operations.</p>
+        <div class="details">
+          <p>Purdue Model, IEC 62443, DMZ segmentation, secure Industry 4.0 connectivity, and IT/OT alignment for visibility and control.</p>
         </div>
-    </section>
+      </div>
 
-    <!-- Executive Summary / Certifications Bar -->
-    <section class="vendor-bar">
-        <div class="container">
-            <span class="vendor-title">Expertise Architecture:</span>
-            <div class="vendor-badges">
-                <span><i class="fa-solid fa-circle-check"></i> Cisco CCIE</span>
-                <span><i class="fa-solid fa-circle-check"></i> SD-WAN & ACI</span>
-                <span><i class="fa-solid fa-circle-check"></i> Zero-Trust / SASE</span>
-                <span><i class="fa-solid fa-circle-check"></i> Hybrid Cloud</span>
-                <span><i class="fa-solid fa-circle-check"></i> Cisco Champion</span>
-                <span><i class="fa-solid fa-circle-check"></i> Security</span>
-                <span><i class="fa-solid fa-circle-check"></i> OT</span>
-                <span><i class="fa-solid fa-circle-check"></i> Automation</span>
-            </div>
+      <div class="card">
+        <h3>Zero Trust & SASE</h3>
+        <p class="short">Identity‑driven access and secure edge architectures.</p>
+        <div class="details">
+          <p>ZTNA, micro‑segmentation, NGFW, identity‑based policies with Cisco ISE, and SASE frameworks for distributed workforces.</p>
         </div>
-    </section>
+      </div>
 
-    <!-- Professional Timeline (Experience) -->
-    <section class="experience-section" id="experience">
-        <div class="container">
-            <div class="section-header">
-                <h2><i class="fa-solid fa-terminal"></i> Deployment History</h2>
-                <p>Proven leadership timeline across enterprise, service provider, MSP sectors.</p>
-            </div>
-
-            <div class="timeline">
-                <!-- Job 1 -->
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">Oct 2019 — Present</div>
-                    <div class="timeline-content">
-                        <h3>Chief Technology Strategist</h3>
-                        <div class="company-location">ENTIRETEC AG | Dubai, UAE</div>
-                        <ul class="job-bullets">
-                            <li>Reduced operational network incidents by 30% via enterprise network architecture redesign utilizing segmentation, redundancy, and advanced routing protocols (BGP, VXLAN, ACI).</li>
-                            <li>Directed technical strategy, cost estimation, and Bill of Materials (BOM) development for enterprise transformation programs.</li>
-                            <li>Enforced core enterprise network architecture standards, directly aligning infrastructure investments with long-term corporate goals.</li>
-                            <li>Led, structured, and mentored an enterprise team of 16 engineers to maintain absolute consistency in delivery and capability development.</li>
-                            <li>Deployed Cisco DNA Center and ISE platforms to execute network automation workflows and zero-trust access control policy.</li>
-                            <li>Designed and executed high-availability next-generation firewall frameworks (Cisco, Fortinet, Sophos) alongside SASE, ZTNA, and SD-WAN architectures.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Job 2 -->
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">Oct 2016 — Oct 2019</div>
-                    <div class="timeline-content">
-                        <h3>Customer Support Engineer – Network Specialist</h3>
-                        <div class="company-location">First Option LLC | Dubai, UAE</div>
-                        <ul class="job-bullets">
-                            <li>Designed and engineered high-performance multi-vendor enterprise networks across 20+ large customer environments.</li>
-                            <li>Successfully integrated production SD-WAN topologies, firewall baselines, and wireless enterprise solutions.</li>
-                            <li>Delivered deep technical validation workshops and structural pre-sales support architecture for complex technical bids.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Job 3 -->
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">Mar 2015 — Mar 2016</div>
-                    <div class="timeline-content">
-                        <h3>Network Engineer</h3>
-                        <div class="company-location">Synophic System Pvt. Ltd. (Client: Cisco Systems)</div>
-                        <ul class="job-bullets">
-                            <li>Supported development and real-time troubleshooting of critical Cisco-based topologies for the Reliance JIO 4G carrier network.</li>
-                            <li>Configured and maintained production ISP-grade routing matrices and security enforcement platforms (Cisco 1800/2600/900, ASA 5505).</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Older Jobs Summary Accordion Box for Clean Visuals -->
-                <div class="older-experience-box">
-                    <h4>Prior Structural Deployments</h4>
-                    <p><strong>Desktop Engineer</strong> | INS E Solution LTD (Client: KSS Group, India) — 2011 to 2015</p>
-                    <p><strong>Hardware & Network Engineer</strong> | Acme Enterprises (India) — 2009 to 2011</p>
-                </div>
-            </div>
+      <div class="card">
+        <h3>SD‑WAN & Cloud WAN</h3>
+        <p class="short">Modernizing WAN for application‑aware performance.</p>
+        <div class="details">
+          <p>Cisco SD‑WAN, Meraki, MPLS migration, application‑aware routing, and hybrid connectivity across regions and clouds.</p>
         </div>
-    </section>
+      </div>
 
-    <!-- Skills Architecture Grid -->
-    <section class="skills-section" id="skills">
-        <div class="container">
-            <div class="section-header">
-                <h2><i class="fa-solid fa-network-wired"></i> Technology Capability Matrix</h2>
-                <p>Granular architectural and engineering capabilities built over 17+ years.</p>
-            </div>
-            
-            <div class="skills-grid">
-                <div class="skill-category-card">
-                    <div class="card-icon"><i class="fa-solid fa-chess-knight"></i></div>
-                    <h3>Leadership & Strategy</h3>
-                    <ul>
-                        <li>Enterprise IT Strategy & Roadmaps</li>
-                        <li>High-Performing Team Management</li>
-                        <li>Stakeholder & Vendor Governance</li>
-                        <li>Budget Program Planning</li>
-                    </ul>
-                </div>
-
-                <div class="skill-category-card">
-                    <div class="card-icon"><i class="fa-solid fa-diagram-project"></i></div>
-                    <h3>Network Architecture</h3>
-                    <ul>
-                        <li>Cisco ACI / VXLAN / EVPN</li>
-                        <li>Enterprise SD-WAN & Campus Networks</li>
-                        <li>Advanced Routing (BGP, OSPF)</li>
-                        <li>DDI Solutions Management</li>
-                    </ul>
-                </div>
-
-                <div class="skill-category-card">
-                    <div class="card-icon"><i class="fa-solid fa-lock"></i></div>
-                    <h3>Security Frameworks</h3>
-                    <ul>
-                        <li>SASE / ZTNA / SSE Architectures</li>
-                        <li>Next-Gen Firewalls (Cisco, Fortinet, Sophos)</li>
-                        <li>Zero-Trust Access (Cisco ISE)</li>
-                        <li>IDS/IPS Real-Time Deployment</li>
-                    </ul>
-                </div>
-
-                <div class="skill-category-card">
-                    <div class="card-icon"><i class="fa-solid fa-code"></i></div>
-                    <h3>Automation & Hybrid Cloud</h3>
-                    <ul>
-                        <li>Infrastructure as Code (Ansible, Python)</li>
-                        <li>Network Automation Frameworks / APIs</li>
-                        <li>AWS & Microsoft Azure Cloud Networking</li>
-                        <li>Cisco DNA Center Orchestration</li>
-                    </ul>
-                </div>
-            </div>
+      <div class="card">
+        <h3>Automation & NetOps</h3>
+        <p class="short">Turning complex networks into observable, manageable systems.</p>
+        <div class="details">
+          <p>Python, Ansible, CMDB enrichment, SLA dashboards, workflow automation, and executive‑level visibility for MTTR reduction.</p>
         </div>
-    </section>
+      </div>
 
-    <!-- Education and Certifications Section -->
-    <section class="education-section" id="education">
-        <div class="container">
-            <div class="credentials-layout">
-                
-                <!-- Certifications List Container -->
-                <div class="certs-container">
-                    <h3><i class="fa-solid fa-award"></i> Verified Verifiable Credentials</h3>
-                    <div class="certs-grid">
-                        <div class="cert-item highlight-cert">
-                            <span class="cert-code">CCIE #65763</span>
-                            <span class="cert-name">Enterprise Infrastructure</span>
-                        </div>
-                        <div class="cert-item">
-                            <span class="cert-code">Cisco Specialist</span>
-                            <span class="cert-name">Data Center Core</span>
-                        </div>
-                        <div class="cert-item">
-                            <span class="cert-code">Extreme Networks</span>
-                            <span class="cert-name">Campus Fabric Expert</span>
-                        </div>
-                        <div class="cert-item">
-                            <span class="cert-code">IPv6 Gold</span>
-                            <span class="cert-name">Certified Engineer</span>
-                        </div>
-                        <div class="cert-item">
-                            <span class="cert-code">Sophos</span>
-                            <span class="cert-name">Certified Engineer & Architect</span>
-                        </div>
-                        <div class="cert-item">
-                            <span class="cert-code">Cisco Specialist</span>
-                            <span class="cert-name">Enterprise SD-WAN Implementation</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Academic Stack -->
-                <div class="edu-container">
-                    <h3><i class="fa-solid fa-graduation-cap"></i> Academic Background</h3>
-                    <div class="edu-card">
-                        <span class="edu-year">2024</span>
-                        <h4>Master of Business Administration (MBA)</h4>
-                        <p class="edu-specialization">IT Management & Strategy Operations</p>
-                    </div>
-                    <div class="edu-card">
-                        <span class="edu-year">2014</span>
-                        <h4>PG Diploma in Computer Application (PGDCA)</h4>
-                        <p class="edu-specialization">JNU University, India</p>
-                    </div>
-                    <div class="edu-card">
-                        <span class="edu-year">2009</span>
-                        <h4>Advanced Diploma in Hardware & Networking</h4>
-                        <p class="edu-specialization">VITHE College, India</p>
-                    </div>
-                </div>
-
-            </div>
+      <div class="card">
+        <h3>Leadership & Mentoring</h3>
+        <p class="short">Leading teams through transformation and complexity.</p>
+        <div class="details">
+          <p>Mentoring 20+ engineers, cross‑functional alignment, simplifying complex environments, and owning architecture end‑to‑end.</p>
         </div>
-    </section>
+      </div>
 
-    <!-- Connect / Call to Action Footer Section -->
-    <footer class="contact-section" id="contact">
-        <div class="container">
-            <div class="contact-box">
-                <h2>Initialize Connection Profile</h2>
-                <p>Seeking top-tier architectural direction for enterprise infrastructure transformation or global operations management?</p>
-                
-                <div class="contact-methods">
-                    <a href="mailto:deepuverma@outlook.com" class="contact-badge"><i class="fa-solid fa-envelope"></i> deepuverma@duck.com</a>
-                    <a href="tel:+971527353248" class="contact-badge"><i class="fa-solid fa-phone"></i> +971-XXXXXXXXX</a>
-                    <a href="https://linkedIn.com/in/engdeepak" target="_blank" class="contact-badge"><i class="fa-brands fa-linkedin"></i> LinkedIn Profile</a>
-                    <span class="contact-badge location"><i class="fa-solid fa-location-dot"></i> Dubai, UAE</span>
-                </div>
-                
-                <hr class="footer-divider">
-                
-                <p class="copyright-text">&copy; 2026 Deepak Kumar. All architectural rights reserved. Built for ultra-secure routing environments.</p>
-            </div>
+      <div class="card">
+        <h3>Network Security & NGFW</h3>
+        <p class="short">Building secure perimeters and micro‑segmented cores.</p>
+        <div class="details">
+          <p>Firewall baselines, IPS/IDS, VPN, secure edge, segmentation, and multi‑vendor NGFW architectures for regulated environments.</p>
         </div>
-    </footer>
+      </div>
+
+      <div class="card">
+        <h3>Cloud Networking (AWS/Azure)</h3>
+        <p class="short">Connecting on‑prem and cloud securely and reliably.</p>
+        <div class="details">
+          <p>VPC/VNET design, cloud firewalls, routing, hybrid connectivity, and secure cloud landing zones for enterprise workloads.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIVIDER -->
+  <div class="divider"></div>
+
+  <!-- IMPACT -->
+  <section id="impact" class="section">
+    <div class="section-header">
+      <h2>Impact Highlights</h2>
+      <p class="section-highlight">Selected outcomes demonstrating measurable business and operational value.</p>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h3>30% Incident Reduction</h3>
+        <p class="short">Stabilizing enterprise networks through architecture and process.</p>
+        <div class="details">
+          <p>Redesigned enterprise architecture with segmentation, redundancy, SD‑WAN, and improved change governance, reducing incidents and outages.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>IT/OT Convergence</h3>
+        <p class="short">Bridging industrial and IT networks securely.</p>
+        <div class="details">
+          <p>Led IT/OT convergence aligned to Purdue Model and IEC 62443, enabling secure Industry 4.0 initiatives and unified visibility.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Global SD‑WAN Rollout</h3>
+        <p class="short">Modernizing WAN across regions with minimal disruption.</p>
+        <div class="details">
+          <p>Architected and executed SD‑WAN rollout across multiple regions, optimizing application performance and reducing dependency on legacy MPLS.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Executive Dashboards</h3>
+        <p class="short">Turning network data into board‑level insights.</p>
+        <div class="details">
+          <p>Built automation and dashboards for SLA, risk, and performance visibility, shortening MTTR and enabling informed executive decisions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIVIDER -->
+  <div class="divider"></div>
+
+  <!-- LEADERSHIP -->
+  <section id="leadership" class="section">
+    <div class="section-header">
+      <h2>Leadership Journey</h2>
+      <p class="section-highlight">Roles shaping strategic thinking, execution discipline, and team leadership.</p>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>Chief Technology Strategist — ENTIRETEC AG</h3>
+        <p>Owning architecture for SD‑WAN, SASE, Zero Trust, IT/OT convergence, and executive‑level technology roadmaps.</p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>Network Specialist — First Option LLC</h3>
+        <p>Designed multi‑vendor enterprise networks across 20+ environments, focusing on resilience and security.</p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>Network Engineer — Synophic Systems</h3>
+        <p>Supported Cisco topologies for Reliance JIO 4G carrier network, gaining deep exposure to large‑scale service provider designs.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIVIDER -->
+  <div class="divider"></div>
+
+  <!-- CREDENTIALS -->
+  <section id="credentials" class="section section-panel">
+    <div class="section-header">
+      <h2>Credentials</h2>
+      <p class="section-highlight">Industry recognition and advanced expert status across vendors and technologies.</p>
+    </div>
+
+    <div class="panel-grid">
+      <div class="panel">
+        <h3>Vendor Recognition</h3>
+        <ul>
+          <li>Cisco Designated VIP</li>
+          <li>Cisco Champion</li>
+          <li>Sophos Best Engineer</li>
+        </ul>
+      </div>
+
+      <div class="panel">
+        <h3>Expert Titles</h3>
+        <ul>
+          <li>CCIE #65763 (Enterprise Infrastructure)</li>
+          <li>DC Specialist</li>
+          <li>Extreme Fabric Expert</li>
+          <li>IPv6 Gold Engineer</li>
+          <li>SD‑WAN Specialist</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIVIDER -->
+  <div class="divider"></div>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="section section-panel">
+    <div class="section-header">
+      <h2>Certifications</h2>
+      <p class="section-highlight">Formal validations of deep technical expertise and design capability.</p>
+    </div>
+
+    <div class="panel-grid">
+      <div class="panel">
+        <h3>Cisco</h3>
+        <ul>
+          <li>CCIE Enterprise Infrastructure</li>
+          <li>Data Center Specialist</li>
+        </ul>
+      </div>
+
+      <div class="panel">
+        <h3>Network & Security</h3>
+        <ul>
+          <li>Extreme Fabric Expert</li>
+          <li>IPv6 Gold Certified</li>
+          <li>SD‑WAN Implementation</li>
+        </ul>
+      </div>
+
+      <div class="panel">
+        <h3>Security Vendor</h3>
+        <ul>
+          <li>Sophos Certified Architect</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIVIDER -->
+  <div class="divider"></div>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section section-panel">
+    <div class="section-header">
+      <h2>Education</h2>
+      <p class="section-highlight">Academic foundation supporting strategic thinking and technology leadership.</p>
+    </div>
+
+    <div class="panel-grid">
+      <div class="panel">
+        <h3>Postgraduate</h3>
+        <ul>
+          <li>MBA – IT Management</li>
+          <li>Master of Arts – Humanities</li>
+        </ul>
+      </div>
+
+      <div class="panel">
+        <h3>Undergraduate</h3>
+        <ul>
+          <li>Bachelor of Arts</li>
+        </ul>
+      </div>
+
+      <div class="panel">
+        <h3>Professional & Technical</h3>
+        <ul>
+          <li>PG Diploma – Computer Applications</li>
+          <li>Advanced Diploma – Hardware & Networking</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIVIDER -->
+  <div class="divider"></div>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-panel">
+    <div class="section-header">
+      <h2>Let’s Talk</h2>
+      <p class="section-highlight">Open to strategic roles, complex transformations, and executive‑level discussions.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h3>Direct Contact</h3>
+        <p><strong>Email:</strong> deepuverma@outlook.com</p>
+        <p><strong>Phone:</strong> +971‑527353248</p>
+        <p><strong>Location:</strong> Dubai, UAE</p>
+      </div>
+      <div class="contact-card">
+        <h3>Professional Profile</h3>
+        <p>View detailed experience, recommendations, and project history.</p>
+        <a class="btn-primary" href="https://www.linkedin.com/in/engdeepak">Open LinkedIn Profile</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">© 2026 Deepak Kumar — Architecting resilient, secure, and scalable infrastructures.</footer>
 
 </body>
 </html>
