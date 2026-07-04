@@ -84,6 +84,12 @@ section {
   flex-wrap: wrap;
   gap: 32px;
   padding: 40px 20px 28px;
+  /* 🔥 Executive Background Image */
+  background-image: url('/assets/images/Backend.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* premium parallax effect */
 }
 
 .hero-main {
